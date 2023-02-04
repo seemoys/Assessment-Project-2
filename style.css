@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Dela+Gothic+One&family=Fredoka+One&family=Indie+Flower&family=Kalam&family=Lobster&family=Lobster+Two:ital@1&family=Macondo&family=Poppins:wght@400;500&family=Red+Rose&family=Righteous&display=swap');
+
+/* Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 20%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    
+    justify-content: space-around;
+    
+
+}
+.logo img{
+    margin: 10px;
+}
+.menu{
+    display: flex;
+    
+}
+.container .menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    position: relative;
+    right: 270px;
+}
+.container .menu ul li a:hover{
+    font-size: 15.5px;
+    border-bottom: 1px solid blue;
+    
+
+
+}
+.container .menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+}
+.contact-btn{
+    width: 100px;
+    position: relative;
+    right: 30px;
+
+}
+.contact-btn button{
+    width: 110px;
+    height: 35px;
+    color: white;
+     background-color: #5955b3;
+     border: none;
+     border-radius: 12px;
+}
+.contact-btn button:hover{
+    background-color: #bf8ded54;
+    color:#5955b3;
+    cursor: pointer;
+
+}
+.hero-section{
+   /* background-color: goldenrod; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.left-hero-section {
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+width: 55%;
+}
+.left-hero-section h1{
+    
+    padding: 10px 55px;
+    line-height: 70px;
+    color: #3c2f60;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 64px;
+text-transform: capitalize;
+
+}
+.left-hero-section h1 span{
+    color: #5955b3;
+}
+.left-hero-section p{
+    padding: 10px 50px 10px 60px;
+    font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  color: #828282;
+text-transform: capitalize;
+  
+}
+.left-hero-section p span{
+    text-transform: uppercase;
+}
+
+
+.left-hero-section button{
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+     background-color: #5955b3;
+     margin-left: 60px;
+    margin-top: 10px;
+    font-family: "Poppins";
+
+}
+.left-hero-section button:hover{
+    background-color: #bf8ded54;
+    color:#5955b3;
+    cursor: pointer;
+}
+
+.right-hero-section img{
+    width: 90%;
+    height: 507px;
+}
